@@ -40,7 +40,7 @@ async def init():
     await userbot.start()
     await Ayush.start()
     try:
-        await Ayush.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await Ayush.stream_call("https://te.legra.ph/file/f0ce9ed1ccc9685f2d5e7.jpg")
     except NoActiveGroupCall:
         LOGGER("VenomX").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
@@ -55,7 +55,7 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("VenomX").info("Stopping TonyX Music Bot...")
+    LOGGER("VenomX").info("Stopping Tony X Music Bot...")
 
 
 if __name__ == "__main__":
