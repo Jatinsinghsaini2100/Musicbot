@@ -68,10 +68,10 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 # Get your pyrogram v2 session from @Venom_string_robot on Telegram
 STRING1 = getenv("STRING_SESSION", "BQFep5gAEj_riAk0lE-5zore9rd5dYCd4YqagCsnHbOSzknHm4tDHIgzbdvUwsvJnOY7WgxZj_30FX5mrog9u1fAdIHiqh1JcLzFqiLTutwm8ADFqE8FTr_F_L0EzwyIRmBZh8ow_Xo65gY4NZauq97yKyr_Hk6f_-NBgej8bi-_ZDgHmQ9f8La_OzHba69IWfxMixgll1akgO8wXaKkOqXfYCHM48wrx4CyllrMNR5VvcaNz3T_RrRUi6CeY9wLRWKFPTYQlXCk-9ZDoBm8J1yMVsqZqp2iFBYYV8n0XP6jwqpBgFvZ0IiU_DpDbB8mrbmlvZsOhHoneDtsLYgGEtruzdS4_AAAAAGTODQBAA")
-STRING2 = getenv("STRING_SESSION2", None)
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
+STRING2 = getenv("STRING_SESSION2", "BQHH73AAbrk9Qn66mL52z5HCdc-Qp3BElE9SK8ef5naZsP7whaXpMQEoJavAvGw_2Uq6mwIenyo4ZbUytR_T-uxZ2o8mBWvr4dI7qUbhqsVhTkmQnkC2OPNlt5DLTtdbju5YdNVnPS8fWoADzzIC-USVKFuL_oNhnmXUcwd4O5HiTZ3va_UdjoqtENfRwrQHImb4bSjR5UaS79fIuqS91DdOLei6Jeyni4vSPivMNsIjk1fB72bO-272-vCuv9EKpRHmvTLX8-rDyKL7XDzfSQc6ZrClZ-wJbTQkxIkbwVBnGctHy5ewKkSyOQD5vWe8iY49P2ibvKsooAUKLowgQ8nxlkqAAAAAFniUE2AA")
+STRING3 = getenv("STRING_SESSION3", "BQHH73AAWqEC87KT8fS7xoT-3ieMNYLKC0CcpMJ2QrKKHLQ9AiUVHP4OBUw7wPL0x8-cRhS4hsBzGb31MGrpMfxkjbEo5xyjrcV_0X69_KbEwJTvWz7hlnMheesvWUuvy5EBe2bJMakM7BkxQb-Nqr9dHL-IPO0-NPi4RoP-JHvg2eHlBA7O91AkdPYCOeXumE1oMRIulN4Ew854KRCg9SkjxiDi5x4fQri9C-HQzxrnVbci0uQIvWjSaW0enlV07NpBksOpQ03_rkVJYjvcmO_7hwlyNtXKVB6aHWCRIaVeMk1gbF3MQ2sZhZFdhJdza_26faGgMIb7W_9ZKCJBmnb56RsokQAAAAF0N9AQAA")
+STRING4 = getenv("STRING_SESSION4", "BQHH73AAoHlZf7qpQjMRfi-fSwJqfGMlFjq2YySK4nMffmbWIaydrlLUzK41uNMiNlN8mMNTE0PLEbZZRANSP3GBCLXTq-iLnEeGuBYjxGqbZA0Z5e05dLWWDvQyAfti6CK9hmdzW9mqXfblkNNBSfg5AiYDLre4XjJPotCj-U4pcmbr-rxZpMCv1hMFxAAt8Xi8Z4VaxBZpZ6LvIUhxkTedWmOCoa6bvvdqXGVm3ca2X2rTZxhBjeG3lQz83GDqpN4zAFL1082eX9Ea0wU3HtaXbrWKMRmaErwD7ILWlxAUBigs06i1ek4KxDLS0sPVSYJIQjVhQXzcQobu-TvEDrS4vjJ8EwAAAAFnqZqpAA")
+STRING5 = getenv("STRING_SESSION5", "BQHH73AAwLpIlpS8cA8-6Uh5QKU4l4l3v6K7Zj_EI1GuOObckgggAGByPSz4vIjykke1qNGfcxCtqAfmKD70d6VO5P4EoVttL9J5niPZLXlvjpk2uJPlKnr3ZiItin6atwFEbPkGCS7UW6jq2qXasg9oVaSB66KHdzRlyIWoOkCI9lct09_Dzh3ASigdcUkcSudc2V5ZohNQGmx3T3Fsutifs1neGjLVpV2C4K2xamZ2jBNb9Tvn_5mDovpGI80Al2eimRqavj4BkNUljWfw5MrnFY_Dl3su3RtJhuxnvL7SrJuVjikx8pmhZEdbBC2TkUTPVHdzEp5tPnC_6V5xcgfHadK5dgAAAAFqwkwqAA")
 
 
 BANNED_USERS = filters.user()
@@ -87,21 +87,21 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/663108c0eccc9f321c4c4.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/f0ce9ed1ccc9685f2d5e7.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/663108c0eccc9f321c4c4.jpg"
+    "PING_IMG_URL", "https://te.legra.ph/file/f0ce9ed1ccc9685f2d5e7.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/663108c0eccc9f321c4c4.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/663108c0eccc9f321c4c4.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/663108c0eccc9f321c4c4.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/663108c0eccc9f321c4c4.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/663108c0eccc9f321c4c4.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/663108c0eccc9f321c4c4.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/663108c0eccc9f321c4c4.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/663108c0eccc9f321c4c4.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/663108c0eccc9f321c4c4.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/663108c0eccc9f321c4c4.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/f0ce9ed1ccc9685f2d5e7.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/f0ce9ed1ccc9685f2d5e7.jpg"
+TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/f0ce9ed1ccc9685f2d5e7.jpg"
+TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/f0ce9ed1ccc9685f2d5e7.jpg"
+STREAM_IMG_URL = "https://te.legra.ph/file/f0ce9ed1ccc9685f2d5e7.jpg"
+SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/f0ce9ed1ccc9685f2d5e7.jpg"
+YOUTUBE_IMG_URL = "https://te.legra.ph/file/f0ce9ed1ccc9685f2d5e7.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/f0ce9ed1ccc9685f2d5e7.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/f0ce9ed1ccc9685f2d5e7.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/f0ce9ed1ccc9685f2d5e7.jpg"
 
 
 def time_to_seconds(time):
